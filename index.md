@@ -1,0 +1,13 @@
+---
+title: Home
+layout: default
+---
+
+# Welcome 🌍
+
+This UCL Grand Challenge – Climate Crisis project aims to gain a better understanding of students’  
+perspectives on how Higher Education can better prepare students by exploring their expectations, values and beliefs.
+
+We adopted a **participatory co-production** approach to research; student partners are involved at all  
+stages of the research process - from research design to data collection, analysis and the  
+dissemination of findings and recommendations.
