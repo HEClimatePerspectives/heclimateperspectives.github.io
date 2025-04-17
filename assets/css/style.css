@@ -30,8 +30,46 @@ footer {
   color: #666;
 }
 
-/
+/* Headings */
+h1, h2, h3 {
+  color: #2c3e50;
+}
 
+/* Links - Soft green */
+a {
+  color: #3fa36f; /* calm green */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Page Section */
 section {
   margin-top: 2rem;
+}
+
+/* Nav bar */
+nav {
+  background-color: #e6f1e7;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  margin: 0 1rem;
+  font-weight: 500;
+  color: #3fa36f;
+}
+
+nav a:hover {
+  color: #2b7a52;
 }
