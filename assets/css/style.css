@@ -1,4 +1,4 @@
-/* style.css – basic minimalist styling */
+/* style.css – minimalist climate-themed styling */
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -9,34 +9,28 @@ body {
   line-height: 1.6;
 }
 
+/* Wrapper for main content */
 .wrapper {
-  max-width: 800px;
+  max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
 }
 
+/* Header and Footer */
 header, footer {
   text-align: center;
-  margin-bottom: 2rem;
+  padding: 1rem 0;
+  background-color: #f0f4f0;
+  border-bottom: 1px solid #ddd;
 }
 
-h1, h2, h3 {
-  color: #2c3e50;
+footer {
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
 }
 
-a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
+/
 
 section {
   margin-top: 2rem;
