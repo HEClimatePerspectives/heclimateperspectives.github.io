@@ -1,49 +1,55 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
+/* style.css – improved minimalist layout */
 
-      <!-- Header -->
-      <header>
-        <h1 style="font-size: 1.75rem;">
-          <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
-        </h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-      </header>
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
 
-      <!-- Navigation -->
-      <nav>
-        <a href="{{ "/" | relative_url }}">Home</a>
-        <a href="{{ "/about" | relative_url }}">About</a>
-        <a href="{{ "/research" | relative_url }}">Research</a>
-        <a href="{{ "/team" | relative_url }}">Team</a>
-      </nav>
+.wrapper {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem 3rem; /* More horizontal padding */
+}
 
-      <!-- Main content -->
-      <section>
-        {{ content }}
-      </section>
+/* Make sure padding looks good on smaller screens */
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 1.5rem 1rem;
+  }
+}
 
-      <!-- Footer -->
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
-</html>
+h1 {
+  color: #3fa36f; /* Soft green for title */
+  font-size: 1.75rem;
+}
+
+h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin-top: 2rem;
+}
