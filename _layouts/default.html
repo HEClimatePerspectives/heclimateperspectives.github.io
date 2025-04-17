@@ -15,6 +15,15 @@
   <body>
     <div class="wrapper">
       <header>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <nav>
+  <a href="{{ "/" | relative_url }}">Home</a>
+  <a href="{{ "/about" | relative_url }}">About</a>
+  <a href="{{ "/research" | relative_url }}">Research</a>
+  <a href="{{ "/team" | relative_url }}">Team</a>
+</nav>
+
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -50,7 +59,5 @@
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
