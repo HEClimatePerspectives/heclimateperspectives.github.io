@@ -1,57 +1,35 @@
-/* Reset + base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* style.css – basic minimalist styling */
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
-  text-align: center; /* Center all text */
 }
 
-/* Main content wrapper */
 .wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
-/* Header with green title */
-header {
+header, footer {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
-header h1 {
-  color: #3fa36f; /* Soft green */
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+h1 {
+  color: #3fa36f; /* Green title */
 }
 
-/* Optional subtitle/description */
-header p {
-  color: #555;
-  font-size: 1rem;
+h2, h3 {
+  color: #2c3e50;
 }
 
-/* Keep content centered */
-section {
-  margin-top: 2rem;
-}
-
-/* Footer */
-footer {
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  color: #777;
-}
-
-/* Links */
 a {
-  color: #3fa36f;
+  color: #007acc;
   text-decoration: none;
 }
 
@@ -59,9 +37,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive images */
 img {
   max-width: 100%;
   height: auto;
 }
 
+section {
+  margin-top: 2rem;
+}
