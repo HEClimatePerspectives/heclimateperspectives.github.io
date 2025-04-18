@@ -59,3 +59,27 @@ section { margin-top: 2rem; }
 .navbar a:hover {
   text-decoration: none;
 }
+.site-footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.site-footer a {
+  color: #3fa36f;
+  text-decoration: underline;
+}
+
+.footer-logo {
+  margin-top: 1rem;
+  max-height: 50px; /* Keeps it footer-sized */
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
