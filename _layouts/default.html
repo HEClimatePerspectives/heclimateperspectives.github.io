@@ -37,12 +37,15 @@
         {{ content }}
       </section>
 
-      <!-- Footer -->
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-      </footer>
+  <footer class="site-footer">
+  <div class="footer-content">
+    <p>Contact us at: <a href="mailto:heclimateperspectives@gmail.com">heclimateperspectives@gmail.com</a></p>
+
+    <img src="{{ "/assets/images/footer-logo.png" | relative_url }}" alt="Footer Logo" class="footer-logo" />
+
+    <p>A project funded by UCL 'Grand Challenges - Climate Crisis' - Academic Year 2024-25</p>
+  </div>
+</footer>
 
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
