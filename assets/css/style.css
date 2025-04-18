@@ -76,18 +76,19 @@ section { margin-top: 2rem; }
 .footer-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   max-width: 900px;
   margin: 0 auto;
   text-align: left;
+  gap: 2rem;
 }
 
 .footer-logo {
   max-height: 150px;
   width: auto;
   display: block;
-  margin-right: 2rem;
 }
+
 
 
