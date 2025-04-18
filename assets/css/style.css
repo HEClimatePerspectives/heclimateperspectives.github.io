@@ -42,26 +42,20 @@ img {
   height: auto;
 }
 section { margin-top: 2rem; }
-/* Nav bar styling */
+/* Minimalist nav bar with clearly separated hyperlinks */
 .navbar {
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .navbar a {
-  display: inline-block;
-  margin: 0 0.75rem;
-  padding: 0.5rem 1rem;
+  margin: 0 1rem;
   color: #3fa36f;
-  border: 1px solid #3fa36f;
-  border-radius: 5px;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 500;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
 }
 
 .navbar a:hover {
-  background-color: #3fa36f;
-  color: #fff;
+  text-decoration: none;
 }
-
