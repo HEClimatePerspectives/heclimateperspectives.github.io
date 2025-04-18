@@ -61,7 +61,6 @@ section { margin-top: 2rem; }
 }
 .site-footer {
   background-color: #f0fdf4; /* very light green */
-  text-align: center;
   padding: 2rem 1rem;
   border-top: 1px solid #ccc;
   margin-top: 3rem;
@@ -74,13 +73,21 @@ section { margin-top: 2rem; }
   text-decoration: underline;
 }
 
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .footer-logo {
-  margin-top: 1rem;
-  max-height: 120px; /* Keeps it footer-sized */
+  max-height: 150px;
   width: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 2rem;
 }
 
 
