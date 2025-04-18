@@ -42,3 +42,26 @@ img {
   height: auto;
 }
 section { margin-top: 2rem; }
+/* Nav bar styling */
+.navbar {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 0 0.75rem;
+  padding: 0.5rem 1rem;
+  color: #3fa36f;
+  border: 1px solid #3fa36f;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #3fa36f;
+  color: #fff;
+}
+
