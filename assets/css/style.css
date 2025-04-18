@@ -60,10 +60,10 @@ section { margin-top: 2rem; }
   text-decoration: none;
 }
 .site-footer {
-  background-color: #f9f9f9;
+  background-color: #f0fdf4; /* very light green */
   text-align: center;
   padding: 2rem 1rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ccc;
   margin-top: 3rem;
   font-size: 0.9rem;
   color: #555;
@@ -82,4 +82,5 @@ section { margin-top: 2rem; }
   margin-left: auto;
   margin-right: auto;
 }
+
 
